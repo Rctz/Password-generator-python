@@ -1,9 +1,11 @@
 # -*- coding: utf-8 -*-
 import string
 import random
+import cowsay
 
 char = string.ascii_letters + string.digits + string.punctuation # letter + number + spacial char
 password = ""
+cowsay.kitty("Password generator by Rctz :)")
 
 try:
     name = input("Use for: ") # input use for
